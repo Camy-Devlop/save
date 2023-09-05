@@ -1,0 +1,6 @@
+Pour copier un fichier 
+Il va faire la difference 
+En suite il va appliquer les modification au fichier de destination 
+
+diff a b > sw.diff
+patch b -i sw.diff -o b
