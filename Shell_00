@@ -1,1 +1,48 @@
+==============================================================================
+popur ex00 touch z >Z
+==============================================================================
+pour ex01
+==============================================================================
+pour ex02
+rm -rf test*
+mkdir test0
+chmod 715 test0
+touch -t 06012047 test0
+mkdir test2
+touch -t 06012146 test1
+chmod 714 test1
+touch -t 06012245 test2
+chmod 504 test2
+touch -t 06012344 test3
+chmod 404 test3
+touch -t 06012343 test4
+chmod 641 test4
+touch -t 06012344 test5
+chmod 404 test5
+ln -s test0 test6
+touch -t 06012220 test6
+chmod -h 777 test6
+tar -cf exo2.tar *
+rm -fr t*
+==============================================================================
+pour ex03 copier le fichier id_rsa_pub
+==============================================================================
+pour ex04 ls -ptm
+==============================================================================
+pour ex5 git log -5 --pretty=format:"%H" && echo \n
+==============================================================================
+pour ex6 git ls-files --others --ignored --exclude-standaerd
+==============================================================================
+pour ex7 recuper le fichier a 
+         puis faire : diff fichier_final ancien_fichier > ver_fichier.diff : diff b a > sw.diff
+         puis : patch b sw.diff
+         
+==============================================================================
 pour ex08  reponce find . -type f \( -name "*~" -o -name "#*#"\) -print -delete
+==============================================================================
+pour ex 41 string 42 42 file
+        en placement
+        type string
+        la valeur a trouver 42
+        message : 42 file
+==============================================================================
